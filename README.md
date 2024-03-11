@@ -1,4 +1,4 @@
-# UTRAINS : Shell Scripting
+Shell Scripting
 
 A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter.
 Use this guide to get a great hold on shell scripting!
@@ -176,7 +176,7 @@ MY_COUNTRY="Cameroon"
 echo "Hello, I'm $MY_COUNTRY"
 ```
 
-[Download the code](./utrainsCourseScripts/variable/my_country.sh)
+
 
 
 * Example 2: Assign command output to a variable
@@ -197,7 +197,7 @@ echo "The contents of this directory are: "
 echo "$CONTENTS"
 ```
 
-[Download the code](./utrainsCourseScripts/variable/directory_contains.sh)
+
 
 * Example 3
 
@@ -207,7 +207,7 @@ SERVER_NAME=$(hostname)
 echo "This script is being run on ${SERVER_NAME}"
 ```
 
-[Download the code](./utrainsCourseScripts/variable/server_name.sh)
+
 
 ### Variable Names
 
@@ -239,7 +239,7 @@ Scripts are basically needed to remove the need of again and again typing the co
 [ condition-to-test-for ]
 ```
 
-#### [Example](./utrainsCourseScripts/variable/test.sh)
+
 
 ```sh
 [ -e /etc/passwd ]
@@ -298,7 +298,7 @@ then
 fi
 ```
 
-[Example:](./utrainsCourseScripts/ifElseStatement/ifStat.sh)
+
 
 ```sh
 #!/bin/bash
@@ -338,7 +338,7 @@ else
 fi
 ```
 
-[Example:](./utrainsCourseScripts/ifElseStatement/ifElse.sh)
+
 
 ```sh
 #!/bin/bash
@@ -378,7 +378,7 @@ else
 fi
 ```
 
-[Example:](./utrainsCourseScripts/ifElseStatement/ifElif.sh)
+
 
 ```sh
 #!/bin/bash
@@ -456,7 +456,7 @@ case "$VAR" in
 esac
 ```
 
-#### [Example](./utrainsCourseScripts/ifElseStatement/case.sh)
+
 
 ```sh
 #!/bin/bash
@@ -516,7 +516,7 @@ do
 done
 ```
 
-### [Example](./utrainsCourseScripts/loops/color.sh)
+
 
 ```sh
 #!/bin/bash
@@ -535,7 +535,7 @@ done
 echo " |----------------------"
 ```
 
-[Alternatively,](./utrainsCourseScripts/loops/color2.sh)
+
 
 ```sh
 #!/bin/bash
@@ -556,7 +556,7 @@ done
 echo " |----------------------"
 ```
 
-### [Example 2](./utrainsCourseScripts/loops/picture.sh)
+
 
 In this simple example we will see how to rename each file with .txt format
 
@@ -625,7 +625,7 @@ do
 done
 ```
 
-#### [Example: print first 10 natural numbers](./utrainsCourseScripts/loops/natur.sh)
+
 
 ```sh
 #!/bini/bash
@@ -637,7 +637,7 @@ do
 done
 ```
 
-#### [Example: Read user name until correct](./utrainsCourseScripts/loops/while_interact.sh)
+
 
 ```sh
 #!/bin/bash
@@ -658,7 +658,7 @@ do
 done
 ```
 
-#### [Example: reading a file line by line](./utrainsCourseScripts/loops/while_read.sh)
+
 
 ```sh
 #!/bin/bash
@@ -870,7 +870,7 @@ function_name() {
 }
 ```
 
-#### [To call a function](./utrainsCourseScripts/functions/utrains_welcome.sh)
+
 
 To call a function, simply write it's name on a line in the script.
 
@@ -902,7 +902,7 @@ myFirstFunc
 
 To call a function from another function, simply write the function name of the function you want to call.
 
-[Example:](./utrainsCourseScripts/functions/urains_Greetings.sh)
+
 
 ```sh
 #!/bin/bash
